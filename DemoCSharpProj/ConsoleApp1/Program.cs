@@ -17,16 +17,28 @@ public class Program
         */
         float x = 3.0f;
 
+
         Random rgen = new Random();
+        /*
         for(int i = 0; i < 100; i++) {
             //Console.WriteLine(rgen.Next(1, 4));
         }
+        */
+        int r = rgen.Next(0, 2);
+        if(r == 0) {
+            Console.WriteLine("Heads");
+        }
+        else {
+            Console.WriteLine("Tails");
+        }
 
+        /*
         int[] nums = new int[5];
         nums[2] = 121342;
         for(int i = 0; i < 5; i++) {
             Console.WriteLine(nums[i]);
         }
+        */
 
         // Example Change.
 
