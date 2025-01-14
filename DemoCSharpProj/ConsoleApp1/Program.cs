@@ -21,11 +21,11 @@ public class Program
         }
         */
 
-        /*
+        
         Console.Write("What's your name? ");
         String a = Console.ReadLine();
         Console.WriteLine(a + " is a fake name. You mus think I am a bot. I promise I am real.");
-        */
+        
         //float x = 3.0f;
 
 
