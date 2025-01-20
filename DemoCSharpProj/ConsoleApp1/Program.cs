@@ -13,6 +13,8 @@ public class Program
         Console.WriteLine("*****************");
     }
 
+    
+
     static void Main(string[] args)
     {
         /*
@@ -78,5 +80,18 @@ public class Program
             playerPos = temp;
         }
         board[playerPos.x, playerPos.y] = "P"; //write new
+
+
+        //MAIN LOOP EXAMPLE
+        while(true) {
+            //1. RENDER
+            
+            //2. GET USER INPUT
+
+            //3. UPDATE STATE (VARIABLES)
+            
+            //if(...) // the game is over 
+            //break;
+        }
     }
 }
